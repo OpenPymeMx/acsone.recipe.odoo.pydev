@@ -67,7 +67,6 @@ setup(name='acsone.recipe.odoo.pydev',
       tests_require=tests_require,
       extras_require = {
         'tests': tests_require,
-        'bzr' : ['anybox.recipe.odoo[bzr]'],
       },
       test_suite='acsone.recipe.odoo.pydev.tests.test_docs.test_suite',
       entry_points=entry_points,
